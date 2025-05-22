@@ -11,6 +11,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+And to run the backend use the below command.
+"python -m uvicorn server:app --reload --port 9876"
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
